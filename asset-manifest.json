@@ -1,16 +1,16 @@
 {
-  "main.css": "/sumas/static/css/main.b1c71052.chunk.css",
-  "main.js": "/sumas/static/js/main.734f927c.chunk.js",
-  "main.js.map": "/sumas/static/js/main.734f927c.chunk.js.map",
+  "main.css": "/sumas/static/css/main.bf6483f5.chunk.css",
+  "main.js": "/sumas/static/js/main.eed69370.chunk.js",
+  "main.js.map": "/sumas/static/js/main.eed69370.chunk.js.map",
   "runtime~main.js": "/sumas/static/js/runtime~main.25523ad3.js",
   "runtime~main.js.map": "/sumas/static/js/runtime~main.25523ad3.js.map",
   "static/css/2.16241af4.chunk.css": "/sumas/static/css/2.16241af4.chunk.css",
   "static/js/2.216510d4.chunk.js": "/sumas/static/js/2.216510d4.chunk.js",
   "static/js/2.216510d4.chunk.js.map": "/sumas/static/js/2.216510d4.chunk.js.map",
   "index.html": "/sumas/index.html",
-  "precache-manifest.5205a2708529a2b979bee3b8f19c8c06.js": "/sumas/precache-manifest.5205a2708529a2b979bee3b8f19c8c06.js",
+  "precache-manifest.cf49952c8daf4e938f2c347c9b3fecd4.js": "/sumas/precache-manifest.cf49952c8daf4e938f2c347c9b3fecd4.js",
   "service-worker.js": "/sumas/service-worker.js",
   "static/css/2.16241af4.chunk.css.map": "/sumas/static/css/2.16241af4.chunk.css.map",
-  "static/css/main.b1c71052.chunk.css.map": "/sumas/static/css/main.b1c71052.chunk.css.map",
+  "static/css/main.bf6483f5.chunk.css.map": "/sumas/static/css/main.bf6483f5.chunk.css.map",
   "static/media/font-awesome.css": "/sumas/static/media/fontawesome-webfont.fee66e71.woff"
 }
