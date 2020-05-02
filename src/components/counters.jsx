@@ -27,16 +27,12 @@ class Counters extends Component {
           disabled={counters.length !== 0 ? "disabled" : ""}
           style={counters.length !== 0 ? {visibility:"hidden"} : {visibility:"visible"}}
         >
-          <i className="fa fa-recycle" aria-hidden="true" />
+          <i className="fa fa-play-circle" aria-hidden="true" />
         </button>
         {counters.map(counter => (
           <Counter
             key={counter.id}
             counter={counter}
-            counter1={counter}
-            counter2={counter}
-            resultado={counter}
-            intento={counter}
             onIncrement={onIncrement}
             onDecrement={onDecrement}
             onDelete={onDelete}

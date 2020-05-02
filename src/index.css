@@ -14,6 +14,9 @@ code {
 }
 input {
     cursor: pointer !important;
-    direction: rtl;
 
+
+}
+parapruebas{
+	 direction: rtl;
 }

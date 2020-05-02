@@ -21,11 +21,10 @@ AddItemsToArray=()=>{
       //Adding Items To Array.
       var valor1 = this.RandomNumber();
       var valor2 = this.RandomNumber();
-	  counters.push( {id: 1, value1: valor1, value2:valor2  ,resultado:valor1+valor2} );
+	  counters.push( {id: 1, value1: valor1, value2:valor2  ,resultado:valor1+valor2, intento:0} );
 	console.log(counters[0]);
 	return(counters);
   }
-
 
 
   handleIncrement = (counter) => {
@@ -34,10 +33,15 @@ AddItemsToArray=()=>{
     const index = counters.indexOf(counter);
     counters[index] = { ...counters[index] };
 	counters[index].resultado =  counters[index].value1+ counters[index].value2;
-	alert(counters[index].intento);
-	console.log(counters[index].resultado );
-    this.setState({ counters });
-	
+	var resultado = (counters[index].resultado );
+	var intento = (counters[index].intento );
+	this.setState({ counters });
+		if (resultado==intento){
+		alert("Correcto Alonso. Pronto podrás sacar una fotografia");
+	}else{
+		alert("introduce el resultado para verificar si es correcto");
+    }
+
   };
 
 
