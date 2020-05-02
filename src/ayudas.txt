@@ -1,0 +1,73 @@
+/*
+    <input value= {this.formatResultado()} onChange={(event)=>this.setResultado(event)}/>
+*/
+
+import React, { Component } from "react";
+
+class Counter extends Component {
+  render() {
+    return (
+      <div>
+        <div className="row">
+          <div className="col-md-1">
+
+			<span >
+			 <input size="40" style={{  textAlign:'right',fontSize: 24 }} type="text" min="0" max="9999"  onChange={(event)=>this.changeCounter1(event)}
+			value={this.formatCount1()}></input>
+			</span>
+		
+              <input size="40" style={{  textAlign:'right',fontSize: 24 }} type="text" onChange={(event)=>this.changeCounter2(event)} value={this.formatCount2()}></input>
+        </div>
+          <div className="col-md-4">
+            <button
+              className="btn btn-secondary"
+              onClick={() => this.props.onIncrement(this.props.counter1)}
+            >
+              <i className="fa fa-plus-circle" aria-hidden="true" />
+            </button>
+          </div>
+		  
+		
+        </div>
+		  <hr>
+		  </hr>
+      </div>
+    );
+  }
+
+  getBadgeClasses1 = () => {
+    let classes = "badge m-2 badge-";
+    classes += this.props.counter1.value1 === 0 ? "warning" : "primary";
+	classes +="warning";
+    return classes;
+  };
+  getBadgeClasses2 = () => {
+    let classes = "badge m-2 badge-";
+    classes += this.props.counter1.value2 === 0 ? "warning" : "primary";
+    classes +="warning";
+	return classes;
+  };
+
+  formatCount1 = () => {
+    const { value1 } = this.props.counter1;
+		  console.log(value1);
+    return value1 === 0 ? "Zero" : value1;
+  }; 
+  
+	formatCount2 = () => {
+	const { value2 } = this.props.counter2;
+	return value2 === 0 ? "Zero" : value2;
+	};
+
+changeCounter1 = (event) => {
+    const updatedKeyword = event.target.value;
+    // May be call for search result
+}
+changeCounter2 = (event) => {
+    const updatedKeyword = event.target.value;
+    // May be call for search result
+}
+}
+
+
+export default Counter;
