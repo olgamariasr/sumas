@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/olgamariasr/sumas/precache-manifest.0c0b49aa362a4f05e13fd92ddd26be3c.js"
+  "/sumas/precache-manifest.4509f6fdbcf63db0100776bfd386ef41.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/olgamariasr/sumas/index.html", {
+workbox.routing.registerNavigationRoute("/sumas/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
